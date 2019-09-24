@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>Random Recipe Generator</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -25,10 +25,12 @@
   <link rel="icon" type="image/png" href="images/frxdge logo.png">
 
 </head>
-<body>
+<body background = "images/filo2.jpg">
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
   <div class="container">
 
     <h1>Random Recipe Generator
@@ -37,11 +39,11 @@
 
   </div>
 <div class = "centerdiv">
-  <div class = "buttondiv">
-    <div id = "quoteDisplay" input type="text">
+  <div class = "container">
+    <div id = "Display" input type="text">
       <!-- will display here-->
         </div>
-
+<br>
   <button class = "button" onclick = "newRecipe()">New Recipe</button>
   <!--<button id = "copybtn" onclick="copyText1()">Copy Text</button>-->
 
@@ -49,11 +51,13 @@
 
 
 
-<div class = "newrecipediv">
-Add a recipe to the database!
+<div class = "container">
+
+  <br> <br>
+<p>Add a recipe to the database!
 <br>
-Please write the name of the recipe and the website or author it is from. ie. Pumpkin Pie from Allrecipes<br>
-<input id="newrecipe1" type="text" name="firstname" value="">
+Please write the name of the recipe and the website or author it is from.<br> i.e. Pumpkin Pie from Allrecipes<br>
+</p><input id="newrecipe1" type="text" name="firstname" value="">
 <br>
 <br>
 <input id=submitrecipebtn type="button" value="Submit" onclick="myFunction()">

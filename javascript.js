@@ -7,7 +7,7 @@
 
 function newRecipe() {
 var randomNumber = Math.floor(Math.random()* (recipes.length));
-document.getElementById('quoteDisplay').innerHTML = recipes[randomNumber];
+document.getElementById('Display').innerHTML = recipes[randomNumber];
 
 }
 

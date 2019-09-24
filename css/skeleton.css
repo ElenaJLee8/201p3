@@ -25,15 +25,19 @@
 - Media Queries
 */
 
+#Display{
+  font-size: 18px;
+}
 .centerdiv{
   text-align: center;
   font-family: Nunito, sans-serif;
-#copybtn{
-
-  display: block;
-}
 
 }
+
+p{
+  font-size: 18px;
+}
+
 #logo{
   width:40px;
   display: inline;
@@ -44,6 +48,7 @@
 }
 h1{
   color: #b56b5f;
+  padding-top: 5px;
 }
 
 .submitform{
@@ -53,8 +58,10 @@ h1{
 
 
 .buttondiv{
-  width: 60%;
-  height: 50%;
+  width:500px;
+  max-width: 80%;
+  height: 250px;
+  max-height: 50%;
   overflow: auto;
   margin: auto;
   position: absolute;
@@ -164,7 +171,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Nunito", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
 
