@@ -11,4 +11,4 @@ var images=['images/quiche.jpg','images/soup.jpg','images/salad copy.jpg', "imag
 setInterval(function(){
   var url=images[Math.floor(Math.random() * images.length)];
   document.body.style.backgroundImage = 'url('+url+')';
-},5000);
+},7000);
