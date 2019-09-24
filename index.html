@@ -25,27 +25,27 @@
   <link rel="icon" type="image/png" href="images/frxdge logo.png">
 
 </head>
-<body background = "images/filo2.jpg">
+<body background = "images/salad copy.jpg">
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
+<div class="container">
+  <h1>Random Recipe Generator
+        <img id = "logo" src = "images/frxdge logo.png">
+  </h1>
 
-  <div class="container">
+</div>
 
-    <h1>Random Recipe Generator
-<img id = "logo" src = "images/frxdge logo.png">
-    </h1>
-
-  </div>
 <div class = "centerdiv">
+
   <div class = "container">
-    <div id = "Display" input type="text">
+      <div id = "Display" input type="text">
       <!-- will display here-->
-        </div>
+  </div>
+
 <br>
   <button class = "button" onclick = "newRecipe()">New Recipe</button>
-  <!--<button id = "copybtn" onclick="copyText1()">Copy Text</button>-->
 
   </div>
 
@@ -65,16 +65,17 @@ Please write the name of the recipe and the website or author it is from.<br> i.
 
 <p id="demo"></p>
 
+<!--JAVASCRIPT -->
+
 <script>
 var recipes = ["Almond Flour Brownies -Michelle Taylor", "Peanut Butter Chocolate Chip Cookies - Kathy Bliesner", "Soft Oatmeal Cookies - BITTERSWEET1", 'Simple Macaroni & Cheese - g0dluvsugly', 'Mini Blueberry Galettes - Minimalist Baker',
-   'Corn Fritters - Countdown NZ', 'Burmese Beef & Potato Curry - Annabel Langbein', 'Mango Creme Brulee - Food In A Minute', 'Spanish Tortilla - Jaime Oliver', '3 Ingredient Tropical Trail Mix - Minimalist Baker', 'Easy Tofu Pad Thai - Minimalist Baker', 'Crispy Baked Sweet Potato Fries - Cookie and Kate', 'Best Lentil Soup - Cookie and Kate', 'Easy Chocolate Cake Recipe - Chelsea Sugar'
-, 'Edmonds Chocolate Cake - Fresh Choice', 'The Best Chocolate Cake Recipe {Ever} - Add a Pinch', 'BEST Chocolate Chip Cookie recipe - Crazy for Crust', 'Best Brownie Recipe - Chelsea Sugar', 'Traditional Brownies - Allrecipes', 'Satay Chicken Recipe - Best Recipes', 'Thai Chicken Satay with Peanut Sauce - RecipeTin Eats'];
+   'Corn Fritters - Countdown NZ', 'Burmese Beef & Potato Curry - Annabel Langbein', 'Mango Creme Brulee - Food In A Minute', 'Spanish Tortilla - Jamie Oliver', '3 Ingredient Tropical Trail Mix - Minimalist Baker', 'Easy Tofu Pad Thai - Minimalist Baker', 'Crispy Baked Sweet Potato Fries - Cookie and Kate', 'Best Lentil Soup - Cookie and Kate', 'Easy Chocolate Cake Recipe - Chelsea Sugar'
+, 'Edmonds Chocolate Cake - Fresh Choice', 'The Best Chocolate Cake Recipe {Ever} - Add a Pinch', 'BEST Chocolate Chip Cookie recipe - Crazy for Crust', 'Best Brownie Recipe - Chelsea Sugar', 'Traditional Brownies - Allrecipes', 'Satay Chicken Recipe - Best Recipes', 'Thai Chicken Satay with Peanut Sauce - RecipeTin Eats', 'Layered Panzanella - Cookie & Kate', 'Ratatouille - Cookie and Kate', 'Chickpea Noodle Soup - Cookie & Kate', 'Spicy Black Bean Soup - Cookie & Kate', 'Pinto Posole - Cookie & Kate', 'Vegetarian Pho - Cookie and Kate', 'Oatmeal Chia Cookies - Eating Bird Food', 'Apple Cinnamon Baked Oatmeal - Eating Bird Food', 'Raspberry Chia Pudding - Eating Bird Food', 'Peanut Butter Chia Pudding - Eating Bird Food', 'Banana Split Chia Pudding - Eating Bird Food', 'Coconut Flour Pancakes - Eating Bird Food', 'Blueberry Protein Pancakes - Eating Bird Food','Healthy Apple Pancakes - Eating Bird Food', 'Vegan Falafel Fritters - Jamie Oliver', 'Crispy Korma Salmon - Jamie Oliver', 'Egg Fried Rice - Jamie Oliver', 'Tuna Fettucine - Jamie Oliver', 'Quick Apricot Chicken Casserole - Eat Well NZ', 'Beef, Spinach and Pasta Bake', 'Devilled Sausages - Eat Well NZ', 'Yummy Scored Spuds - Eat Well NZ', 'Curried Sausages - Eat Well NZ', 'Baby Bacon Bites - Eat Well NZ', 'Potato and Apple Gratin - Eat Well NZ', 'Lemon Slice - Eat Well NZ', 'Chocolate and Coconut Crispy Slice - Eat Well NZ', 'Super Corn Fritters - Food In A Minute', 'Perfect Roast Pork - Food In A Minute', 'Bacon and Egg Pie - Food In A Minute', 'Anzac Biscuits - Food In A Minute', 'Perfect Roast Potatoes - Food In A Minute','Winter Beef Casserole - Food In A Minute', 'Chicken and Mushroom Filo Parcels - Food In A Minute', 'Slow Cooked Beef Stroganoff - Food In A Minute', 'Moussaka - Food In A Minute', 'Quick and Easy Nachos'];
 
 function myFunction(){
 var newArray = document.getElementById("newrecipe1").value;
 recipes.push(newArray);
 document.getElementById("newrecipe1").value = "";
-//  document.getElementById("demo").innerHTML = recipes;
  }
 
 
@@ -83,7 +84,6 @@ document.getElementById("newrecipe1").value = "";
 </div>
 </div>
 </div>
-
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
